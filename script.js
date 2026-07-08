@@ -1,8 +1,8 @@
 // Replace these five placeholder values with your hosted wedding greeting video URLs.
 // Tip: keep each URL inside quotation marks and separate each line with a comma.
 const videos = [
-  "videos/video1.mov",
-  "videos/video2.mov"
+  "videos/video1.MOV",
+  "videos/video2.MOV"
 ];
 
 const videoElement = document.getElementById("surpriseVideo");
