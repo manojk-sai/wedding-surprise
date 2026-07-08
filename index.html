@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A special wedding message from Manoj & Likhitha." />
+  <meta name="theme-color" content="#F8F3EA" />
+  <title>Manoj &amp; Likhitha Wedding Surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell" aria-labelledby="page-title">
+    <section class="invitation-card">
+      <div class="decor decor-left" aria-hidden="true">✦</div>
+      <div class="decor decor-right" aria-hidden="true">✦</div>
+
+      <header class="hero">
+        <p class="eyebrow">Wedding Celebration</p>
+        <h1 id="page-title">A Little Surprise For You ❤️</h1>
+        <p class="subtitle">Thank you for being part of our special celebration.</p>
+        <div class="couple-name" aria-label="Couple names">Manoj &amp; Likhitha</div>
+      </header>
+
+      <section class="details" aria-label="Wedding details">
+        <p>August 30, 2026</p>
+        <span aria-hidden="true">•</span>
+        <p>The Bella Grande Ranch</p>
+        <span aria-hidden="true">•</span>
+        <p>Celina, Texas</p>
+      </section>
+
+      <section class="video-section" aria-label="Wedding surprise video">
+        <div class="video-frame">
+          <div class="loading" id="videoLoading" aria-live="polite">
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Preparing your surprise message...</span>
+          </div>
+          <video id="surpriseVideo" controls autoplay muted playsinline preload="metadata">
+            Your browser does not support the HTML5 video player.
+          </video>
+        </div>
+        <p class="video-note">Refresh the page to discover another greeting from our loved ones.</p>
+      </section>
+
+      <footer class="footer">
+        <p>With love,<br />Manoj &amp; Likhitha ❤️</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
